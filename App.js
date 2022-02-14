@@ -23,6 +23,9 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import {
+  VideoFeed,
+} from 'react-native-firework-sdk';
 
 const App: () => React$Node = () => {
   return (
@@ -46,6 +49,10 @@ const App: () => React$Node = () => {
                 screen and then come back to see your edits.
               </Text>
             </View>
+            <VideoFeed
+              style={{ height: 200 }}
+              source="discover"
+            />
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>See Your Changes</Text>
               <Text style={styles.sectionDescription}>
