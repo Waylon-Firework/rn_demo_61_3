@@ -11,7 +11,7 @@
   "dependencies": {
     "react": "16.9.0",
     "react-native": "0.61.3",
-    "react-native-firework-sdk": "^1.0.3"
+    "react-native-firework-sdk": "^1.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.5.0",
@@ -21,9 +21,9 @@
     "jest": "^24.1.0",
     "metro-react-native-babel-preset": "0.59.0",
     "react-test-renderer": "16.9.0",
-    "@react-native-community/cli": "4.5.1",
-    "@react-native-community/cli-platform-android": "4.5.1",
-    "@react-native-community/cli-platform-ios": "4.5.0"
+    "@react-native-community/cli": "^4.5.1",
+    "@react-native-community/cli-platform-android": "^4.5.1",
+    "@react-native-community/cli-platform-ios": "^4.5.0"
   },
   "jest": {
     "preset": "react-native"

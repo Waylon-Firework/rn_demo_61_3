@@ -6,6 +6,8 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+//        sourceCompatibility JavaVersion.VERSION_11
+//        targetCompatibility JavaVersion.VERSION_11
     }
 
     packagingOptions {
@@ -25,9 +27,6 @@ dependencies {
     // ads
     implementation 'com.github.loopsocial:AndroidAdsService:v20.0.0'
 //  implementation 'com.github.loopsocial:AndroidAdsService:v19.5.0'
-
-    // react-native 0.61.3
-    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 }
 
 // AAPT: error: resource android:attr/lStar not found
