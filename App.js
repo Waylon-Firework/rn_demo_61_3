@@ -26,6 +26,7 @@ import {
 import {
   VideoFeed,
 } from 'react-native-firework-sdk';
+import FastImage from 'react-native-fast-image';
 
 const App: () => React$Node = () => {
   return (
@@ -49,6 +50,12 @@ const App: () => React$Node = () => {
                 screen and then come back to see your edits.
               </Text>
             </View>
+            <FastImage
+              style={{width: 200, height: 200}}
+              source={{
+                uri: 'https://unsplash.it/400/400?image=1',
+                priority: FastImage.priority.normal }}
+            />
             <VideoFeed
               style={{ height: 200 }}
               source="discover"
